@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter Username standard_user to email field [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='user-name']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password secret_sauce to password field [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='password']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button  [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='login-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Get Text From Product Title]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="5903" started-at="2023-05-07T10:56:00 BST" finished-at="2023-05-07T10:56:06 BST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.saucedemo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.saucedemo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="com-saucedemo-sw-5" duration-ms="5903" started-at="2023-05-07T10:56:00 BST" finished-at="2023-05-07T10:56:06 BST">
+      <class name="com.saucedemo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="setUp" is-config="true" duration-ms="4360" started-at="2023-05-07T10:56:01 BST" finished-at="2023-05-07T10:56:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="inIt" is-config="true" duration-ms="32" started-at="2023-05-07T10:56:05 BST" finished-at="2023-05-07T10:56:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="381" started-at="2023-05-07T10:56:05 BST" finished-at="2023-05-07T10:56:05 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Username standard_user to email field [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='user-name']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password secret_sauce to password field [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='password']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button  [[ChromeDriver: chrome on WINDOWS (f8b17d4ced03e8ec5dd63f6814aa476c)] -> xpath: //input[@id='login-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Get Text From Product Title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucedemo.testsuite.LoginPageTest@67205a84]" name="tearDown" is-config="true" duration-ms="713" started-at="2023-05-07T10:56:05 BST" finished-at="2023-05-07T10:56:06 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.testsuite.LoginPageTest -->
+    </test> <!-- com-saucedemo-sw-5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
